@@ -1,0 +1,159 @@
+.token-tooltip-alt-for-v11-tooltip-container {
+  pointer-events: none;
+  background: white;
+  position: absolute;
+  width: auto;
+  padding: 5px;
+  border: 2px solid;
+  border-radius: 5px;
+}
+.token-tooltip-alt-for-v11-tooltip-container.hidden {
+  display: none;
+}
+
+.token-tooltip-alt-for-v11-tooltip-items {
+  display: grid;
+  column-gap: 0.5rem;
+}
+
+.token-tooltip-alt-for-v11-tooltip-column {
+  max-width: 10rem;
+}
+
+.token-tooltip-alt-for-v11-tooltip-item:not(.title) {
+  display: grid;
+  grid-gap: 0.5rem;
+  align-items: center;
+}
+.token-tooltip-alt-for-v11-tooltip-item img {
+  border: none;
+}
+.token-tooltip-alt-for-v11-tooltip-item span {
+  word-break: break-word;
+}
+
+.token-tooltip-alt-for-v11-tooltip-manager .token-tooltip-alt-for-v11-row_enable, .token-tooltip-alt-for-v11-tooltip-manager .token-tooltip-alt-for-v11-row_custom {
+  text-align: center;
+}
+
+.token-tooltip-alt-for-v11-tooltip-editor-window .flexcol {
+  height: 100%;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .content {
+  overflow-x: hidden;
+  overflow-y: auto;
+  padding-right: 5px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .sheet-footer {
+  flex: 0;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .content {
+  border-top: 1px solid #b5b3a4;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-footer_button {
+  height: 34px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .tabs {
+  flex: 0 0 32px;
+  line-height: 32px;
+  font-size: 16px;
+  border-bottom: 1px solid #000;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window input[type=color] {
+  width: 50px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-table thead tr {
+  text-align: center;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_icon {
+  width: 100px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_expression, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_isFunction, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_isNumber, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_sort_column {
+  width: 30px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_delete {
+  width: 50px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-col_color {
+  width: 52px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_expression, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_isFunction, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_isNumber, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_sort {
+  text-align: center;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-sort-handler i {
+  cursor: grab;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-button.copy, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-button.paste {
+  flex: 0.5;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-button.add, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-button.copy, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-button.paste {
+  min-width: 80px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_tracked-value {
+  display: grid;
+  align-items: end;
+  grid-template-columns: auto 30px;
+  column-gap: 0.3rem;
+  padding: 0.35em 0;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_tracked-value textarea {
+  min-height: 26px;
+  height: 26px;
+  resize: none;
+  overflow: -moz-scrollbars-none;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_tracked-value textarea::-webkit-scrollbar {
+  display: none;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_tracked-value .advanced-editor {
+  background: none;
+  border: none;
+  line-height: 26px;
+}
+.token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_tracked-value .advanced-editor:focus, .token-tooltip-alt-for-v11-tooltip-editor-window .token-tooltip-alt-for-v11-row_tracked-value .advanced-editor:hover {
+  box-shadow: none;
+}
+
+.token-tooltip-alt-for-v11-data-manager-window .token-tooltip-alt-for-v11-data-manager-section {
+  height: 620px;
+}
+.token-tooltip-alt-for-v11-data-manager-window .data-manager {
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+}
+.token-tooltip-alt-for-v11-data-manager-window .CodeMirror {
+  height: 100%;
+}
+
+.token-tooltip-alt-for-v11-advanced-editor-window .advanced-editor {
+  font-family: "Courier New", Courier, monospace;
+  height: 100%;
+}
+.token-tooltip-alt-for-v11-advanced-editor-window .CodeMirror {
+  height: 100%;
+}
+
+.token-tooltip-alt-for-v11-tooltip-container.default {
+  background: url("../../../ui/parchment.jpg") repeat;
+}
+.token-tooltip-alt-for-v11-tooltip-container.default .token-tooltip-alt-for-v11-tooltip-item.title {
+  border-bottom: 1px solid;
+}
+.token-tooltip-alt-for-v11-tooltip-container.default .token-tooltip-alt-for-v11-tooltip-item span {
+  color: black;
+}
+.token-tooltip-alt-for-v11-tooltip-container.default.dark {
+  background: url("../../../ui/denim075.png") repeat;
+  box-shadow: 0 0 20px #000;
+}
+.token-tooltip-alt-for-v11-tooltip-container.default.dark .token-tooltip-alt-for-v11-tooltip-item.title {
+  border-bottom: 2px solid;
+}
+.token-tooltip-alt-for-v11-tooltip-container.default.dark .token-tooltip-alt-for-v11-tooltip-item.title span {
+  color: white;
+}
+.token-tooltip-alt-for-v11-tooltip-container.default.dark .token-tooltip-alt-for-v11-tooltip-item span {
+  color: white;
+}
+
+/*# sourceMappingURL=token-tooltip-alt-for-v11.css.map */

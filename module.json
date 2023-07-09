@@ -1,8 +1,8 @@
 {
-  "id": "token-tooltip-alt",
-  "title": "Token Tooltip Alt",
+  "id": "token-tooltip-alt-for-v11",
+  "title": "Token Tooltip Alt for foundry V11",
   "description": "Based on the original Token Tooltip Alt, updated for v11 and integrating the currently open PRs from the main repo.",
-  "version": "3.3.2",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "bmarian",
@@ -36,7 +36,7 @@
   ],
   "styles": [
     "https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css",
-    "styles/token-tooltip-alt.css"
+    "styles/token-tooltip-alt-for-v11.css"
   ],
   "compatibility": {
     "minimum": "11",

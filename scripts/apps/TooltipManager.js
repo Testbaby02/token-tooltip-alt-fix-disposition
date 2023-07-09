@@ -64,7 +64,7 @@ export default class TooltipManager extends FormApplication {
 
   // handles the settings for the current actorType (getting the current settings if present, or creating
   // defaults if nothing is there)
-  // game.settings.set('token-tooltip-alt', 'gmSettings', {}); game.settings.set('token-tooltip-alt', 'playerSettings', {});
+  // game.settings.set('token-tooltip-alt-for-v11', 'gmSettings', {}); game.settings.set('token-tooltip-alt-for-v11', 'playerSettings', {});
   async _generateSettingsListForActorType(actorType) {
     const returnGmItems = [];
     const returnPlayerItems = [];
@@ -126,7 +126,7 @@ export default class TooltipManager extends FormApplication {
   }
 
   // generate a list of actors, to delete it just use in the console
-  // game.settings.set('token-tooltip-alt', 'actors', [])
+  // game.settings.set('token-tooltip-alt-for-v11', 'actors', [])
   async _getActorsList() {
     const systemActors = this._getEntityTypes() || [];
     const actors = this._getSetting(TTAConstants.SETTING_KEYS.ACTORS);

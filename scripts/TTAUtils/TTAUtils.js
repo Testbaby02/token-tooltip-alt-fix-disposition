@@ -1,4 +1,4 @@
-const MODULE_NAME = 'token-tooltip-alt';
+const MODULE_NAME = 'token-tooltip-alt-for-v11';
 const MODULE_TITLE = 'Token Tooltip Alt';
 const DEBUG = false;
 const TRACE = true;
